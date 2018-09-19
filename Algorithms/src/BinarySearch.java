@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BinarySearch {
     private static  boolean binarySearch(int searchableValue) {
-        int[] arr = {1, 4, 5, 8, 9, 10, 11, 24, 32, 45, 56, 57, 58, 60, 90, 97, 99};
+        int[] arr = { 1, 4, 5, 8, 9, 10, 11, 24, 32, 45, 56, 57, 58, 60, 90, 97, 99 };
         int result = -1, start = 0, end = arr.length;
 
         while (end - start > 1 && result < 0) {
